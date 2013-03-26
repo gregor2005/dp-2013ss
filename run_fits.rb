@@ -4,7 +4,7 @@ require 'find'
 require 'timeout'
 
 if ARGV.size != 1
-  puts "usage: ruby tool.rb ..."
+  puts "usage: ruby run_fits.rb [output-directory]"
   exit
 end
 
